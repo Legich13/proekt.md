@@ -1,0 +1,418 @@
+body {
+    margin: 0;
+}
+
+.header_contact {
+    display: flex;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    background: #000000;
+    color: gray;
+}
+
+.vertical_line {
+    border-left: 1px solid gray;
+    width: 1px;
+    height: 12px;
+}
+
+.svg_phone {
+    padding-top: 11px;
+    padding-left: 20%;
+}
+
+.nomber_phone {
+    padding-left: 16px;
+}
+.vertical_line {
+    margin-top: 13px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.registragion   {
+    padding-left: 35%;
+    padding-top: 12px;
+}
+
+.registragion_registr {
+    padding-top: 12px;
+    padding-left: 1%;
+   
+}
+.registragion_registr a{
+    text-decoration: none;
+    color: gray;
+}
+
+nav {
+    background: #0F0F0F;
+    display: flex;
+    
+}
+
+.logo {
+    font-family: 'Post No Bills Jaffna Bold';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #FFFFFF;
+    padding-top: 10px;
+    padding-left: 20%
+}
+
+.color_text {
+    color: gray;
+    padding: 5px 35px 35px 35px;
+}
+
+.pading_left_nav {
+    
+    padding-top: 27px;
+}
+
+.laik {
+    margin-left: 20%;
+}
+
+.color_text:hover {
+    background: #1F1F1F;
+    color: #FFFFFF;
+    
+}
+
+.color_text:after {
+    background: #1F1F1F;
+    color: #FFFFFF;
+}
+.carzina {
+    padding-left: 1%;
+}
+.lup  {
+    padding-left: 1%;
+}
+
+header {
+    background-image: url(../img/Rectangle\ 3.png);
+    height: 810px;
+}
+
+.main_logo {
+    border: 4px solid #FFFFFF;
+    box-sizing: border-box;
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    left: 800px;
+    top: 284px;
+
+}
+
+.text_logo {
+    font-family: 'Post No Bills Jaffna Bold';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 96px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 70px;
+}
+
+.logo_lain {
+    border-top: 2px solid #FFFFFF;
+    width: 185px;
+    margin-left: 65px;
+}
+
+.logo_gorod {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 46px;
+    text-align: center;
+    color: #FFFFFF;
+    
+}
+
+.header_text {
+    position: absolute;
+width: 730px;
+height: 96px;
+left: 595px;
+top: 684px;
+
+font-family: PT Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 150%;
+
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+
+.wtach_calection h2 {
+    font-family: 'Playfair Display';
+    src: local('Playfair Display Bold Italic'), local('PlayfairDisplay-BoldItalic'), url('Playfairdisplaybolditalic.woff2') format('woff2'), url('Playfairdisplaybolditalic.woff') format('woff'), url('Playfairdisplaybolditalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+    color: #FFFFFF;
+}
+
+.logowatch_left {
+    background: #000000;
+}
+.watch_bloc {
+    background: #000000;
+    width: 50%;
+    height: 405px;
+}
+
+.watch_lain {
+    border: 1px solid #FFFFFF;
+    width: 120px;
+    height: 0px;
+    margin-left: 27px;
+}
+
+.watch_img {
+    background: #191B1C;
+}
+
+.color_text_watch {
+    color: #FFFFFF;
+}
+
+.watch_card {
+    width: 33%;
+}
+
+.watch_card_bloc {
+    display: flex;
+}
+
+.wtach_calection {
+    padding: 29px 0px 60px 203px;
+}
+
+@media screen  and (max-width: 1225px) {
+    .svg_phone {
+        padding-top: 11px;
+        padding-left: 10%;
+    }
+
+    .logo {
+        padding-left: 10%;
+    }
+
+    .laik {
+        margin-left: 10%;
+    }
+
+    header {
+        height: 515px;
+        background-size: 1225px;
+    }
+
+    .main_logo {
+        border: 4px solid #FFFFFF;
+        box-sizing: border-box;
+        position: absolute;
+        width: 240px;
+        height: 240px;
+        left: 494px;
+        top: 166px;
+    }
+
+
+    .logo_lain {
+        border-top: 2px solid #FFFFFF;
+        width: 185px;
+        margin-left: 24px;
+    }
+
+    .header_text {
+        position: absolute;
+        width: 712px;
+        height: 96px;
+        left: 256px;
+        top: 470px;
+        font-family: PT Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 125%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+}
+
+@media screen  and (max-width: 960px) {
+    header {
+        height: 515px;
+        background-size: 960px;
+    }
+
+    .header_text {
+        position: absolute;
+        width: 712px;
+        height: 96px;
+        left: 156px;
+        top: 470px;
+        font-family: PT Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 125%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .main_logo {
+        border: 4px solid #FFFFFF;
+        box-sizing: border-box;
+        position: absolute;
+        width: 240px;
+        height: 208px;
+        left: 385px;
+        top: 161px;
+    }
+
+    .logo_gorod {
+        color: #FFFFFF;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 46px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .text_logo {
+        
+        padding-top: 30px;
+    }
+
+}
+
+
+@media screen  and (max-width: 720px) {
+    .header_contact {
+        font-size: 11px;
+    }
+    .svg_phone {
+        padding-left: 2%;
+    }
+ 
+    .registragion {
+        padding-left: 26%;
+        
+    }
+       
+    .logo {
+        padding-left: 5%;
+    }
+
+    .color_text {
+        padding: 27px 12px 15px 35px;
+    }
+    .carzina {
+        padding-left: 1%;
+    }
+
+    .laik {
+        margin-left: 0%;
+    }
+
+    header {
+        height: 303px;
+        background-size: 720px;
+    }
+
+    .main_logo {
+        width: 140px;
+        height: 140px;
+        left: 304px;
+        top: 126px;
+    }
+
+    .text_logo {
+        font-size: 30px;
+        line-height: 53px;
+        padding-top: 15px;
+    }
+
+    .logo_lain {
+        width: 87px;
+        margin-left: 23px;
+    }
+
+    .logo_gorod {
+        font-size: 13px;
+        line-height: 29px;
+        
+    }
+
+    .header_text {
+        
+        width: 466px;
+        height: 91px;
+        left: 156px;
+        top: 290px;
+        font-size: 10px;
+        line-height: 125%;
+    }
+
+}
+
+@media screen  and (max-width: 540px) {
+    .registragion {
+        padding-left: 4%;
+    }
+    
+    .logo {
+        display: none;
+    }
+
+    .color_text {
+        padding: 19px 12px 15px 22px;
+    }
+    .pading_left_nav {
+        padding-top: 17px;
+    }
+
+    header {
+        height: 228px;
+        background-size: 540px;
+    }
+
+    .main_logo {
+        width: 133px;
+        height: 121px;
+        left: 217px;
+        top: 112px;
+    }
+    .header_text {
+        width: 344px;
+        height: 91px;
+        left: 97px;
+        top: 244px;
+        font-size: 10px;
+        line-height: 125%;
+    }
+
+}
+
+
