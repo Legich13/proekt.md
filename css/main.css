@@ -101,6 +101,10 @@ header {
     height: 810px;
 }
 
+.watch_left {
+    display: flex;
+}
+
 .main_logo {
     border: 4px solid #FFFFFF;
     box-sizing: border-box;
@@ -174,7 +178,7 @@ color: #FFFFFF;
 .watch_bloc {
     background: #000000;
     width: 50%;
-    height: 405px;
+    height: 500px;
 }
 
 .watch_lain {
@@ -186,14 +190,23 @@ color: #FFFFFF;
 
 .watch_img {
     background: #191B1C;
+    padding-top: 50px;
+    height: 185px;
 }
 
 .color_text_watch {
     color: #FFFFFF;
+    padding-top: 11px;
 }
 
 .watch_card {
-    width: 33%;
+    width: 25%;
+    padding-left: 5%;
+
+} 
+
+.watch_img img {
+    width: 100%;
 }
 
 .watch_card_bloc {
@@ -201,7 +214,199 @@ color: #FFFFFF;
 }
 
 .wtach_calection {
-    padding: 29px 0px 60px 203px;
+    padding: 7% 0% 7% 41%;
+}
+
+.watch_left_img {
+    background-image: url(../img/Rectangle\ 8.png);
+    height: 500px;
+    width: 612px;
+    background-size: 612px;
+}
+
+.watch_left_img_bloc {
+    padding-top: 50%
+}
+
+.watch_left_img_text {
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 48px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.watch_lain_left_text {
+    margin-left: 235px;
+    margin-top: 11px;
+}
+
+.watch_left_img_button {
+    border: 1px solid white;
+    width: 24%;
+    height: 42px;
+    text-align: center;
+    padding-top: 19px;
+    margin-top: 28px;
+    margin-left: 226px;
+
+} 
+
+.watch_left_img_button a {
+    text-decoration: none;
+    color: white;
+} 
+
+.text_right {
+    display: flex;
+}
+
+.text_right_left_text {
+    background: #000000; 
+    color: white; 
+    padding: 5% 10%;
+} 
+
+.text_right_left_text_god { 
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.text_right_left_text_main_text p {
+    font-family: PT Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 150%;
+text-align: center;
+}
+
+.text_right_left_text_lain {
+    border: 1px solid #FFFFFF;
+    width: 120px;
+    height: 0px;
+    margin-top: 5%;
+    margin-left: 39%;
+} 
+.text_right_left_text_main_text {
+    padding-top: 6%;
+} 
+
+.text_right_left_text_button {
+    border: 1px solid white; 
+    text-align: center;
+    padding: 2%;
+    width: 45%;
+    margin-left: 25%;
+    margin-top: 10%;
+} 
+
+.text_right_left_text_button a {
+    color: white;
+    text-decoration: none;
+} 
+
+.text_right {
+    background-color: black;
+} 
+
+.watch_card_new {
+    background-color: black;
+} 
+
+.watch_card_new_text {
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-transform: uppercase;
+} 
+
+.watch_card_new_lain {
+    margin-left: 47%;
+    margin-top: 3%;
+} 
+
+.watch_card_new_cantainer {
+    padding: 7% 20% 20% 20%;
+} 
+
+.flex {
+    display: flex;
+} 
+
+.watch_card_new_card_two {
+    padding-top: 5%;
+}
+
+
+.brend {
+    background: #0F0F0F; 
+}
+
+.brend_text {
+    color: white;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.brand_logo{
+    display: flex; 
+    padding: 2% 20% 2% 28%;
+} 
+
+.brend_lain {
+    margin-left: 47%;
+    margin-top: 4%;
+}
+
+
+@media screen  and (max-width: 1800px) {
+    .watch_bloc {
+        width: 50%;
+        height: 700px;
+    }
+    .watch_img {
+        padding-top: 50px;
+        height: 278px;
+    } 
+    .watch_left_img {
+        height: auto;
+        width: 50%;
+        background-size: 936px;
+    } 
+
+    .watch_lain_left_text {
+        margin-left: 43%;
+        margin-top: 11px;
+    } 
+
+    .watch_left_img_button {
+        width: 24%;
+        height: 42px;
+        text-align: center;
+        padding-top: 19px;
+        margin-top: 28px;
+        margin-left: 38%;
+    }
 }
 
 @media screen  and (max-width: 1225px) {
@@ -256,11 +461,36 @@ color: #FFFFFF;
         color: #FFFFFF;
     }
 
+    .watch_img {
+        padding-top: 50px;
+        height: 198px;
+    } 
+
+    .watch_bloc {
+        width: 50%;
+        height: 513px;
+    } 
+
+    .text_right_img img {
+        width: 699px;
+    }
+
+    .text_right_left_text {
+        background: #000000;
+        color: white;
+        padding: 2% 5% 0% 3%;
+    }
+
+    .brand_logo {
+        display: flex;
+        padding: 2% 20% 2% 22%;
+    }
+
 }
 
 @media screen  and (max-width: 960px) {
     header {
-        height: 515px;
+        height: 405px;
         background-size: 960px;
     }
 
@@ -269,11 +499,11 @@ color: #FFFFFF;
         width: 712px;
         height: 96px;
         left: 156px;
-        top: 470px;
+        top: 405px;
         font-family: PT Sans;
         font-style: normal;
         font-weight: normal;
-        font-size: 16px;
+        font-size: 13px;
         line-height: 125%;
         text-align: center;
         text-transform: uppercase;
@@ -303,6 +533,91 @@ color: #FFFFFF;
     .text_logo {
         
         padding-top: 30px;
+    }
+
+    .watch_left {
+        display: block;
+    } 
+
+    .watch_bloc {
+        width: auto;
+        height: 587px;
+    } 
+    .wtach_calection {
+        padding: 29px 0px 60px 400px;
+    } 
+
+    .watch_lain {
+        width: 120px;
+        height: 0px;
+        margin-left: 27px;
+    } 
+    .watch_card {
+        width: 25%;
+        padding-left: 5%;
+    } 
+
+    .watch_img {
+        
+        padding-top: 50px;
+        height: 263px;
+    } 
+
+    .watch_left_img {
+        height: 796px;
+        width: 960px;
+        background-size: 960px;
+    } 
+
+    .watch_left_img_bloc {
+        padding-top: 50%;
+    }
+
+    .watch_lain_left_text {
+        margin-left: 415px;
+        margin-top: 11px;
+    } 
+
+    .watch_left_img_button {
+        padding-top: 19px;
+        margin-top: 28px;
+        margin-left: 369px;
+    } 
+
+    .text_right {
+        display: block;
+    } 
+
+    .text_right_img img {
+        width: 960px;
+    } 
+
+    .text_right_left_text {
+        padding: 5% 10% 0% 10%;
+        margin-top: -4px;
+        height: 450px;
+    } 
+
+    .text_right_left_text_lain {
+        margin-top: 5%;
+        margin-left: 39%;
+    } 
+
+    .watch_card_new_lain {
+        margin-left: 44%;
+        margin-top: 3%;
+    }
+    .razmer {
+        height: 155px;
+    }
+
+    .brend_svg_razmer{
+        width: 200px;
+    }
+
+    .brend_lain {
+        margin-left: 43%;
+        margin-top: 4%;
     }
 
 }
@@ -375,6 +690,55 @@ color: #FFFFFF;
         line-height: 125%;
     }
 
+    .watch_left {
+        display: block;
+    } 
+
+    .watch_bloc {
+        width: auto;
+    } 
+
+    .wtach_calection {
+        padding: 28px 0px 60px 277px;
+    } 
+    .watch_card {
+        width: 25%;
+        padding-left: 6%;
+    } 
+
+    .watch_left_img {
+        height: 500px;
+        width: 720px;
+        background-size: 720px;
+    } 
+
+    .watch_left_img_bloc {
+        padding-top: 43%;
+    } 
+
+    .watch_lain_left_text {
+        margin-left: 300px;
+        margin-top: 11px;
+    } 
+
+    .watch_left_img_button {
+        margin-left: 274px;
+    } 
+
+    .text_right_img img {
+        width: 720px;
+    }
+
+    .razmer {
+        height: 100px;
+        padding-top: 23px;
+    } 
+
+    .brand_logo {
+        display: flex;
+        padding: 2% 20% 3% 11%;
+    }
+
 }
 
 @media screen  and (max-width: 540px) {
@@ -412,6 +776,74 @@ color: #FFFFFF;
         font-size: 10px;
         line-height: 125%;
     }
+
+    .watch_left {
+        display: block;
+    } 
+
+    .watch_bloc {
+        width: auto; 
+        height: 390px;
+    } 
+
+    .wtach_calection {
+        padding: 23px 0px 15px 190px;
+    }
+
+    .watch_card {
+        width: 25%;
+        padding-left: 6%;
+    } 
+
+    .watch_img {
+        padding-top: 22px;
+        height: 160px;
+    } 
+
+    .watch_left_img {
+        height: 447px;;
+        width: 540px;
+        background-size: 540px;
+    }
+
+    .watch_left_img_bloc {
+        padding-top: 39%;
+    }
+    
+    .watch_lain_left_text {
+        margin-left: 198px;
+        margin-top: 11px;
+    }
+    .watch_left_img_button {
+        margin-left: 193px;
+    } 
+
+    .text_right_img img {
+        width: 540px;
+    } 
+
+    .text_right_left_text {
+        height: 500px;
+    }
+
+    .razmer {
+        height: 100px;
+        padding-top: 23px;
+    }
+
+    .color_text_watch {
+        font-size: small;
+    } 
+
+    .watch_card_new_lain {
+        margin-left: 39%;
+        margin-top: 6%;
+    } 
+
+    .brend_svg_razmer {
+        width: 150px;
+    }
+    
 
 }
 
